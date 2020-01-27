@@ -1,0 +1,89 @@
+.van {
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}
+
+.gameContainer {
+    width: 1000px;
+    height: 900px;
+    border: 3px solid black;
+    position: relative;
+    margin: 0 auto;
+}
+
+.lentil {
+    position: absolute;
+    width: 20px;
+    /*height: 18px;*/
+    border-radius: 50%;
+    background: brown;
+}
+
+.creditScore {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.item {
+    position: absolute;
+    bottom: 0px;
+}
+
+.lentil-dropper {
+    position: absolute;
+    bottom: -20px;
+    transform: rotate(-45deg);
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bankrupt {
+	background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    display: none;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.bankrupt-container {
+	position: relative;
+	top: 30%;
+}
+
+.bankrupt-text {
+	color: white;
+}
+
+.start-over-button {
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    box-shadow: 0 .2em gray;
+    cursor: pointer;
+}
+
+.start-over-button:hover {
+	/*display: none;*/
+
+    box-shadow: none;
+    position: relative;
+    top: .2em;
+}
